@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   devopsdb:
-    image: kalavakuru/flmproject:dbappv1
+    image: kalavakuru/flmproject:dbappv2
     ports:
       - "3306:3306"
     deploy:
