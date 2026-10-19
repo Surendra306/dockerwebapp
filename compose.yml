@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   devopsdb:
-    image: kalavakuru/flmproject:db
+    image: kalavakuru/flmproject:dbappv1
     ports:
       - "3306:3306"
     deploy:
@@ -11,7 +11,7 @@ services:
       - mynetwork
 
   application:
-    image: kalavakuru/flmproject:javaapp
+    image: kalavakuru/flmproject:javaappv2
     ports:
       - "1111:8080"
     deploy:
